@@ -9,7 +9,7 @@ public class MathUtils {
    * @param zahl2
    * @return
    */
-  public static int kgt(int zahl1, int zahl2) {
+  public static int ggt(int zahl1, int zahl2) {
     if (zahl1 == 0) {
       return zahl2;
     }
