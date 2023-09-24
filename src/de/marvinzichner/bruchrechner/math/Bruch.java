@@ -82,9 +82,9 @@ public class Bruch {
    * @return
    */
   public Bruch kuerzen() {
-    final int kgt = MathUtils.ggt(this.zaehler, this.nenner);
-    this.zaehler = this.zaehler / kgt;
-    this.nenner = this.nenner / kgt;
+    final int ggt = MathUtils.ggt(this.zaehler, this.nenner);
+    this.zaehler = this.zaehler / ggt;
+    this.nenner = this.nenner / ggt;
     return this;
   }
 
